@@ -3,23 +3,23 @@
 ## Features
 
     - Simulates a 25-message email thread
-    - [Generates a large PDF document (~70MB) from the thread]
-    - [Uses content from a sample Word document]
-    - [Backend-only implementation with simple API endpoint]
+    - Generates a large PDF document (~70MB) from the thread
+    - Uses content from a sample Word document
+    - Backend-only implementation with simple API endpoint
 
 ## Prerequisites
 
-    - [PHP 8.2 or higher]
-    - [Composer]
-    - [Laravel 12]
-    - [512MB+ PHP memory limit]
+    - PHP 8.2 or higher
+    - Composer
+    - Laravel 12
+    - 512MB+ PHP memory limit
 
 ## Ensure your php.ini has these settings:
 
-    - [memory_limit = 512M]
-    - [max_execution_time = 300]
-    - [post_max_size = 256M]
-    - [upload_max_filesize = 256M]
+    - memory_limit = 512M
+    - max_execution_time = 300
+    - post_max_size = 256M
+    - upload_max_filesize = 256M
 
 ## Installation
 
@@ -45,12 +45,12 @@
     cp .env.example .env
     ```
 
-    - [DB_CONNECTION=mysql]
-    - [DB_HOST=127.0.0.1]
-    - [DB_PORT=3306]
-    - [DB_DATABASE=[database-name]]
-    - [DB_USERNAME=[database-username]]
-    - [DB_PASSWORD=[database-username-password]]
+    - DB_CONNECTION=mysql
+    - DB_HOST=127.0.0.1
+    - DB_PORT=3306
+    - DB_DATABASE=database-name
+    - DB_USERNAME=database-username
+    - DB_PASSWORD=database-username-password
 
 4. Generate application key:
 
